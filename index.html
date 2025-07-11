@@ -1,1 +1,234 @@
-[...FULL HTML CONTENT FROM ABOVE...]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Giftson's Eco Project 🌱</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      transition: background 0.3s, color 0.3s;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1500&q=80') center/cover;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background: #2f855a;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+      color: white;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+    }
+    nav a:hover {
+      background-color: #276749;
+      border-radius: 5px;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: #2f855a;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+    }
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .blog article {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .team-member {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .dark-mode {
+      background-color: #1a202c;
+      color: white;
+    }
+    .scroll-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #2f855a;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 18px;
+      display: none;
+    }
+    .newsletter input[type="email"] {
+      padding: 10px;
+      width: 60%;
+      margin-right: 10px;
+    }
+    .newsletter button {
+      padding: 10px 20px;
+      background: #2f855a;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .donate-box {
+      background: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .donate-box button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #38a169;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    footer {
+      background: #2f855a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#impact">Impact</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#blog">Blog</a>
+  <a href="#video">Video</a>
+  <a href="#events">Events</a>
+  <a href="#team">Team</a>
+  <a href="#donate">Donate</a>
+</nav>
+
+<header data-aos="fade-in">
+  <h1>🌿 Giftson's Eco Project</h1>
+  <p>Together for a greener tomorrow!</p>
+</header>
+
+<div class="section" id="impact" data-aos="fade-up">
+  <h2>🌱 Our Impact</h2>
+  <p>🌳 Trees Planted: <strong>250</strong></p>
+  <p>👥 Volunteers Joined: <strong>85</strong></p>
+  <p>📍 Areas Cleaned: <strong>15</strong></p>
+</div>
+
+<div class="section" id="gallery" data-aos="fade-right">
+  <h2>📸 Project Gallery</h2>
+  <div class="gallery-grid">
+    <img src="https://images.unsplash.com/photo-1523978591478-c753949ff840?auto=format&fit=crop&w=800&q=80" alt="Tree Planting">
+    <img src="https://images.unsplash.com/photo-1597694011819-a9d82b6c2a8c?auto=format&fit=crop&w=800&q=80" alt="Clean Up">
+    <img src="https://images.unsplash.com/photo-1565120130288-fd5a41c1e522?auto=format&fit=crop&w=800&q=80" alt="Eco Team">
+  </div>
+</div>
+
+<div class="section" id="blog" data-aos="fade-up">
+  <h2>📰 Blog & News</h2>
+  <div class="blog">
+    <article>
+      <h3>Why Trees Matter</h3>
+      <p>Trees improve air quality, reduce climate change, and support biodiversity.</p>
+    </article>
+    <article>
+      <h3>Beach Cleanup 2025</h3>
+      <p>We cleared 12 bags of plastic and glass from our coastlines!</p>
+    </article>
+    <article>
+      <h3>Volunteer Spotlight</h3>
+      <p>Meet Amina — a 17-year-old hero leading school recycling efforts.</p>
+    </article>
+  </div>
+</div>
+
+<div class="section" id="video" data-aos="zoom-in">
+  <h2>🎬 Youth in Action</h2>
+  <iframe src="https://www.youtube.com/embed/9V7mMaZfFz4" title="Youths Greening the World" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="section" id="events" data-aos="fade-left">
+  <h2>📆 Upcoming Events</h2>
+  <ul>
+    <li>🌳 Tree Planting @ Karura Forest – July 20, 2025</li>
+    <li>🧼 Plastic-Free Market Day – August 5, 2025</li>
+    <li>♻️ School Eco Workshop – August 12, 2025</li>
+  </ul>
+</div>
+
+<div class="section" id="team" data-aos="flip-up">
+  <h2>👥 Meet Our Team</h2>
+  <div class="team-member">
+    <h3>Giftson Lewis Situma</h3>
+    <p>Youth Eco Lead & Founder</p>
+  </div>
+  <div class="team-member">
+    <h3>Jacinta Wayua King's</h3>
+    <p>Co-Founder</p>
+  </div>
+</div>
+
+<div class="section" id="donate" data-aos="fade-up">
+  <h2>💸 Support Our Mission</h2>
+  <div class="donate-box">
+    <p><strong>M-Pesa Paybill:</strong> 0796 350 613</p>
+    <p><strong>Account Name:</strong> Giftson Situma</p>
+    <button onclick="alert('Use M-Pesa Paybill 0796 350 613 – Account: Giftson Situma')">Donate Now</button>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Giftson's Eco Project 🌍 | Made with ❤️ in Kenya</p>
+  <button onclick="document.body.classList.toggle('dark-mode')">🌗 Toggle Dark Mode</button>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+  const scrollBtn = document.createElement('button');
+  scrollBtn.innerText = '⬆';
+  scrollBtn.className = 'scroll-top';
+  scrollBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+  document.body.appendChild(scrollBtn);
+  window.onscroll = () => {
+    scrollBtn.style.display = window.scrollY > 300 ? 'block' : 'none';
+  };
+</script>
+
+</body>
+</html>
